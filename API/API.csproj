@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>f79c1f63-3ce3-4f16-8b34-7fcd6041f49b</UserSecretsId>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Phoenix.Modules.Auth.Business\Phoenix.Modules.Auth.Business.csproj" />
+      <ProjectReference Include="..\Phoenix.Modules.Docs.Business\Phoenix.Modules.Docs.Business.csproj" />
+      <ProjectReference Include="..\Phoenix.Modules.MentalHealthTools.Business\Phoenix.Modules.MentalHealthTools.Business.csproj" />
+      <ProjectReference Include="..\Phoenix.Modules.Pharma.Business\Phoenix.Modules.Pharma.Business.csproj" />
+    </ItemGroup>
+
+</Project>

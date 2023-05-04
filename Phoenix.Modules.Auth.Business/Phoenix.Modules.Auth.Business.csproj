@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Phoenix.Auth.Business</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Phoenix.Modules.Auth.Data\Phoenix.Modules.Auth.Data.csproj" />
+      <ProjectReference Include="..\Phoenix.Shared.Business\Phoenix.Shared.Business.csproj" />
+    </ItemGroup>
+
+</Project>

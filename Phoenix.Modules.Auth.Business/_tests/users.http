@@ -1,0 +1,31 @@
+GET {{BaseUrl}}/api/Users/Get/kofi
+
+###
+GET {{BaseUrl}}/api/Users/Get/1296ad63-695e-4cca-9d8d-a9881c1a8029
+
+###
+POST {{BaseUrl}}/api/Users/Create
+Content-Type: application/json
+
+{
+  "firstName": "Work",
+  "lastName": "Pls",
+  "email": "kofigyasidev@gmail.com",
+  "phoneNumber": "0207333247",
+  "password": "pass"
+}
+
+###
+POST {{BaseUrl}}/api/Users/Login
+Content-Type: application/json
+
+{
+  "email": "kofigyasidev@gmail.com",
+  "password": "pass"
+}
+
+###
+DELETE {{BaseUrl}}/api/Users/Delete/kofi
+
+###
+DELETE {{BaseUrl}}/api/Users/Delete/c3d07e04-8242-47f6-81f4-f0a1707e5784
